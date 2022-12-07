@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "==2.*"
+flask-compress = "==1.*"
+gunicorn = "==20.*"
+requests = "==2.*"
+
+[requires]
+python_version = "3"
