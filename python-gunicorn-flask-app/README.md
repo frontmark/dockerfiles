@@ -41,7 +41,7 @@ so that the build process is reproducible and deterministic, thus production-rea
 
 Note that only MINOR and PATCH versions are udpated automatically so as to not break something.\*
 
-\*) assuming that the python packages are following [Semantic Versioning](https://semver.org/) best practices.
+\*) assuming that the Python packages are following [Semantic Versioning](https://semver.org/) best practices.
 
 ## fAPP folder
 
