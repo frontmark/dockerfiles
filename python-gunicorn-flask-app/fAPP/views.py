@@ -1,11 +1,6 @@
 from datetime import datetime
 
-from flask import (
-    Flask,
-    make_response,
-    render_template,
-    # send_from_directory,
-)
+from flask import Flask, make_response, render_template  # send_from_directory
 from flask_compress import Compress
 
 app = Flask(__name__, static_url_path="/appname/static")
