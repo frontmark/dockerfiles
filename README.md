@@ -5,6 +5,6 @@
 
 Dockerfiles and Makefiles to build and run (web) apps and services.
 
-## :snake: python-gunicorn-flask-app
+## python-gunicorn-flask-app
 
 A stripped-down example of a dockerized [Flask](https://flask.palletsprojects.com/en/2.2.x/) web application [[...]](python-gunicorn-flask-app)
