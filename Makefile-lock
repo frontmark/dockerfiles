@@ -1,0 +1,22 @@
+.PHONY: lock
+
+lock:
+ifeq ($(wildcard Pipfile),Pipfile)
+	-rm Pipfile.lock
+	docker run -t --rm \
+	--mount type=bind,source='$(ppth)',target=/home/snake \
+	-w /home/snake \
+	$(shell grep FROM Dockerfile | cut -d' ' -f 2) \
+	/bin/bash -c "pip install --disable-pip-version-check --no-cache-dir pipenv && pipenv lock"
+else
+ifeq ($(wildcard package.json),package.json)
+	-rm package-lock.json
+	docker run -t --rm \
+	--mount type=bind,source='$(ppth)',target=/home/node \
+	-w /home/node \
+	$(shell grep FROM Dockerfile | cut -d' ' -f 2) \
+	npm install --package-lock-only
+else
+	$(error No valid file found to $@)
+endif
+endif
