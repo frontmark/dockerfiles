@@ -2,7 +2,7 @@
 
 A stripped-down example of a dockerized [Flask](https://flask.palletsprojects.com/en/2.2.x/) web application,
 
-based on the official Docker image for [Python](https://hub.docker.com/_/python), served by [Gunicorn](https://gunicorn.org/) :unicorn:
+based on the official Docker image for [Python](https://hub.docker.com/_/python) :snake:, served by [Gunicorn](https://gunicorn.org/) :unicorn:
 
 **Table of Contents**
 
