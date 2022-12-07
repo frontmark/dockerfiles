@@ -1,0 +1,5 @@
+ifeq ($(OS),Windows_NT)
+ppth = $(shell cygpath -a -m -l .)
+else
+ppth = $(shell pwd -P)
+endif
