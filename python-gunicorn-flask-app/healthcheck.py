@@ -1,5 +1,6 @@
-import requests
 import sys
+
+import requests
 
 r = requests.options("http://localhost:5000/appname")
 if r.status_code == 200:
