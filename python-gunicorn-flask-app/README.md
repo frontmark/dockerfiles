@@ -47,7 +47,6 @@ Note that only MINOR and PATCH versions are udpated automatically so as to not b
 
 The [fAPP](fAPP) folder contains the Flask app code itself. It's just a skeleton, but you can easily add, e.g.,
 - more routes,
-- Python code,
 - jQuery,
 - Bootstrap,
 - etc.
