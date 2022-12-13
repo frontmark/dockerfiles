@@ -9,7 +9,7 @@ based on the official Docker image for [Node.js](https://hub.docker.com/_/node).
 - [Makefile](#makefile)
   - [Build the Docker image and run a container](#build-the-docker-image-and-run-a-container)
   - [Update the package-lock.json dependencies](#update-the-package-lockjson-dependencies)
-- [server.js](#serverjs)
+- [server.js file](#serverjs-file)
 
 ## Makefile
 
@@ -43,9 +43,9 @@ Note that only MINOR and PATCH versions are udpated automatically so as to not b
 
 \*) assuming that the Node.js packages are following [Semantic Versioning](https://semver.org/) best practices.
 
-## server.js
+## server.js file
 
-The [server.js](server.js) contains the server's JS code. It's just a skeleton, but you can easily add, e.g.,
+The [server.js](server.js) file contains the server's JS code. It's just a skeleton, but you can easily add, e.g.,
 - more routes,
 - middleware functions,
 - etc.
