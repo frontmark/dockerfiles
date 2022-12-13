@@ -5,6 +5,10 @@
 
 Dockerfiles and Makefiles to build and run (web) apps and services.
 
+## nodejs-express-web-service
+
+A stripped-down example of a dockerized [Express](https://expressjs.com) (4.x) web service [[...]](nodejs-express-web-service)
+
 ## python-gunicorn-flask-app
 
 A stripped-down example of a dockerized [Flask](https://flask.palletsprojects.com/en/2.2.x/) web application [[...]](python-gunicorn-flask-app)
