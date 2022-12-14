@@ -51,7 +51,9 @@ The [fAPP](fAPP) folder contains the Flask app code itself. It's just a skeleton
 - Bootstrap,
 - etc.
 
-The (empty) [public](fAPP/public) folder is meant to be used to serve a `favicon.ico` and/or `webclip.png` (a.k.a. `apple-touch-icon`). The code is already there, just uncomment it and place the appropriate file(s) inside the `public` folder (and remove the `.gitignore` file which you will then no longer need).
+<!-- textlint-disable -->
+The (empty) [public](fAPP/public) folder is meant to be used to serve a `favicon.ico` and/or `webclip.png` (a.k.a. `apple-touch-icon`). The code is already there (in [views.py](fAPP/views.py) and [index.html](fAPP/templates/index.html)), just uncomment it and place the appropriate file(s) inside the `public` folder (and remove the `.gitignore` file which you will then no longer need).
+<!-- textlint-enable -->
 
 <!-- textlint-disable -->
 Use the [custom.css](fAPP/static/custom.css) and [custom.js](fAPP/static/custom.js) files to easily add some custom CSS and JavaScript code to your app.
