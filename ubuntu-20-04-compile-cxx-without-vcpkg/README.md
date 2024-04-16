@@ -56,3 +56,9 @@ docker build -t built-without-vcpkg:latest .
 
 Hello, John!
 ```
+
+21.7 seconds. Compare that to the 202.6 seconds of the build process **with** `vcpkg` (see [../ubuntu-20-04-compile-cxx-with-vcpkg](../ubuntu-20-04-compile-cxx-with-vcpkg)).
+
+The difference is due to the time it takes to download and build the dependencies.
+
+The actual build time of the program is similar in both cases.
