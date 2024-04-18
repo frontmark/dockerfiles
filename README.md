@@ -15,8 +15,8 @@ A stripped-down example of a dockerized [Flask](https://flask.palletsprojects.co
 
 ## ubuntu-20-04-compile-cxx-with-vcpkg
 
-A dockerized multi-stage build process for a C++ program that *does* use `vcpkg` to manage dependencies [[more...]](ubuntu-20-04-compile-cxx-with-vcpkg)
+A multi-stage build process for a C++ program that *does* use `vcpkg` to manage dependencies [[more...]](ubuntu-20-04-compile-cxx-with-vcpkg)
 
 ## ubuntu-20-04-compile-cxx-without-vcpkg
 
-A dockerized multi-stage build process for a C++ program that does **not** use `vcpkg` to manage dependencies [[more...]](ubuntu-20-04-compile-cxx-without-vcpkg)
+A multi-stage build process for a C++ program that does **not** use `vcpkg` to manage dependencies [[more...]](ubuntu-20-04-compile-cxx-without-vcpkg)
