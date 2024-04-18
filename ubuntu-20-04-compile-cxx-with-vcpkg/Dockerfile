@@ -32,8 +32,7 @@ RUN \
 COPY src/ ./src
 RUN cmake -DCMAKE_BUILD_TYPE=Release -S src -B src/build \
   -DCMAKE_TOOLCHAIN_FILE=/root/vcpkg/scripts/buildsystems/vcpkg.cmake \
-  && cd src/build/main \
-  && make
+  && make -C src/build/main
 
 FROM ubuntu:20.04
 RUN groupadd -r otto && useradd -r -g otto otto
