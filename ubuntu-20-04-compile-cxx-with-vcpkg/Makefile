@@ -17,7 +17,7 @@ clean: ;
 build: clean
 	docker build -t $(img) .
 run:
-	@docker run --rm $(args) --name $(name) --hostname $(name) $(img) ./build/main/progname "--name" "Jane"
+	@docker run --rm $(args) --name $(name) --hostname $(name) $(img) ./build/main/progname --name Jane
 stop rm:
 	-docker container $@ $(name)
 
