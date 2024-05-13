@@ -1,0 +1,5 @@
+set(Boost_USE_STATIC_LIBS ON)
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+add_executable(progname "main.cpp")
+find_package(Boost REQUIRED COMPONENTS program_options)
+target_link_libraries(progname PRIVATE ${Boost_LIBRARIES})
